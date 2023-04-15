@@ -10,9 +10,9 @@
 <body>
     <header id="header">
         <nav id="nav-bar">
-            <h2>
+            <h1>
                 Original trombones
-            </h2>
+            </h1>
             <div id="navBar">
                 <p class="nav-link">Features</p>
                 <p class="nav-link">How It Works</p>
@@ -20,14 +20,79 @@
             </div>
         </nav>
 
-        <div class="email-section">
-            <h3>Handcrafted, home-made masterpieces</h3>
-            <div class="email-content">
-                <input placeholder="Enter your email address">
-                <button class="button">GET STARTED</button>
-            </div>
-            
+        <section id="hero">
+            <h2>Handcrafted, home-made masterpieces</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+              <input
+                name="email"
+                id="email"
+                type="email"
+                placeholder="Enter your email address"
+                required
+              />
+              <input id="submit" type="submit" value="Get Started" class="btn" />
+            </form>
+        </section>
+
+        <div class="container-service">
+            <section id="service">
+                <div class="desc">
+                    <h2>Premium Materials</h2>
+                    <p>
+                        Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+                    </p>
+                </div>
+                <div class="desc">
+                    <h2>Fast Shipping</h2>
+                    <p>
+                        We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
+                    </p>
+                </div>
+                <div class="desc">
+                    <h2>Quality Assurance</h2>
+                    <p>
+                        For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+                    </p>
+                </div>
+            </section>
+
+            <section id="price">
+                <div class="product" id="tenor">
+                  <div class="instrument">Tenor Trombone</div>
+                  <h2>$600</h2>
+                  <ol>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                  </ol>
+                  <button class="btn">Select</button>
+                </div>
+                <div class="product" id="bass">
+                  <div class="instrument">Bass Trombone</div>
+                  <h2>$900</h2>
+                  <ol>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                  </ol>
+                  <button class="btn">Select</button>
+                </div>
+                <div class="product" id="valve">
+                  <div class="instrument">Valve Trombone</div>
+                  <h2>$1200</h2>
+                  <ol>
+                    <li>Plays similar to a Trumpet</li>
+                    <li>Great for Jazz Bands</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                  </ol>
+                  <button class="btn">Select</button>
+                </div>
+              </section>
         </div>
+        
     </header>
 </body>
 </html>
