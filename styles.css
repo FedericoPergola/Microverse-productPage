@@ -1,0 +1,24 @@
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#navBar{
+    display: flex;
+    gap: 33px;
+    padding: 0px, 25px;
+}
+
+.email-section{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.button{
+    background-color:#f1c40f;
+    border: none;
+    padding: 10px;
+    color: black;
+}
