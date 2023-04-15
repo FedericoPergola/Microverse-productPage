@@ -47,7 +47,7 @@ body{
     display: block;
 }
 
-/* section service */
+/* ----section service------ */
 
 #service .desc{
     display: flex;
@@ -99,4 +99,39 @@ body{
     font-weight: 400;
     padding: 5px;
     border: none;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+/* -----Footer----- */
+footer{
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+footer p{
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+}
+
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer a{
+    color: #000;
+    text-decoration: none;
+    padding: 2px;
 }
